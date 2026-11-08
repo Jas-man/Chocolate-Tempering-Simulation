@@ -130,14 +130,8 @@ power ÷ 0.6. Everything is integrated with a fixed 1 s Runge–Kutta step.
 
 All constants are in `tempering_config.m`, each with units and a comment.
 
-## 7. Things to think about
 
-- Why does the chocolate not simply follow the jacket? What sets the lag, and how does stirring change it?
-- Cooling too hard makes unstable crystals fast. How does the reheating stage deal with them — and how far can you reheat before you melt what you wanted?
-- Stirring helps nucleation and heat transfer. What does it cost in energy and in heat?
-- Which is cheaper: a long gentle profile or a short aggressive one? Where do you hit a limit first?
-
-## 8. Files
+## 7. Files
 
 | File | Purpose |
 |---|---|
@@ -147,4 +141,4 @@ All constants are in `tempering_config.m`, each with units and a comment.
 | `simulate_tempering.m`, `score_tempering.m`, `run_design.m` | Model, scoring, one-call wrapper |
 | `plot_tempering.m`, `report_text.m` | Graphs and text report |
 | `validate_design.m`, `default_design.m`, `save_submission.m` | Input checking, starter design, submission files |
-| `organiser/` | Ranking script, self-test and organiser guide — **keep away from participants** |
+| `organiser/` | Ranking script, self-test and organiser guide |
